@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyWebsite</title>
+    <style>
+      * {
+        border: 1px solid black;
+      }
+      body {
+        height: 900px;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+      }
+      .divTopbar {
+        height: 70px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+      }
+      .divTopbarIcon {
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .imgIcon {
+        width: 60px;
+        height: 60px;
+        margin: 1px;
+        border-radius: 50px;
+        border-color: white;
+      }
+      .divName {
+        margin-left: 4px;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .divNavibar {
+        margin-left: 4px;
+        display: flex;
+        align-items: center;
+      }
+      .divNavi {
+        width: 100px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      .divNavi:hover {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 顶部栏 -->
+    <div class="divTopbar">
+      <!-- 图标 -->
+      <div class="divTopbarIcon">
+        <img class="imgIcon" src="./icon.jpg" alt="icon" />
+      </div>
+      <!-- 名称 -->
+      <div class="divName">RegoAn</div>
+      <!-- 导航 -->
+      <div class="divNavibar">
+        <div class="divNavi">博客主页</div>
+        <div class="divNavi">聚合文章</div>
+        <div class="divNavi">作品展示</div>
+        <div class="divNavi">关于作者</div>
+      </div>
+    </div>
+  </body>
+</html>
